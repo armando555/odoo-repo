@@ -14,7 +14,7 @@ services:
       - pg_data:/var/lib/postgresql/data
 
   odoo:
-    image: odoo:14
+    image: odoo:16
     container_name: odoo_app
     restart: always
     depends_on:
