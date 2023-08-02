@@ -1,0 +1,4 @@
+<odoo>
+    <record id="tasks_type_form_view" model="ir.ui.view">
+        <field name="name">task.task</field>
+</odoo>
