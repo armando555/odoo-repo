@@ -9,9 +9,6 @@
                 parent="menu_task_root"
                 sequence="10"/>
 
-    <menuitem   id="menu_tasks" 
-                name="Tasks"
-                parent="menu_task_operations"
-                sequence="10"/>
+    
     
 </odoo>

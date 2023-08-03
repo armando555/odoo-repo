@@ -25,6 +25,7 @@
     'installable': True,
     'auto_install': False,
     'data':[
+        'security/ir.model.access.csv',
         'views/menu.xml',
         'views/task.xml',
     ],

@@ -6,4 +6,9 @@
         <field name="res_model">task.task</field>
         <field name="view_mode">tree,form</field>
 	</record>
+    <menuitem   id="menu_tasks" 
+                name="Tasks"
+                parent="menu_task_operations"
+                action="action_task_task"
+                sequence="10"/>
 </odoo>
