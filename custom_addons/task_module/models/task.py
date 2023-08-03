@@ -1,8 +1,8 @@
 from oddo import models,fields
 
 class Task(models.Model):
-    _name = "task.Task"
+    _name = "task.task"
 
-    name = fields.Many2one("res.partner", string="Task")
-    task_type = fields.Integer(string="TaskType")
-    description = fields.Char(string="Description")
+    name = fields.Char(required=True, string="name")
+    task_type = fields.Selection([("general","General"),("particular","Particular")])
+    description = fields.Text(string="Description")

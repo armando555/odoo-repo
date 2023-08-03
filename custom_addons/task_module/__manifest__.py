@@ -22,7 +22,9 @@
 
     # any module necessary for this one to work correctly
     'images': ['static/description/banner.gif'],
-
+    'installable': True,
+    'auto_install': False,
+    'data':[],
     # always loaded
     #'data': [
     #    'data/slide_channel_data.xml',
