@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem   id="menu_task_root" 
+                name="Task Module"
+                sequence="10"/>
+
+    <menuitem   id="menu_task_operations" 
+                name="Operations"
+                parent="menu_task_root"
+                sequence="10"/>
+
+    <menuitem   id="menu_tasks" 
+                name="Tasks"
+                parent="menu_task_operations"
+                sequence="10"/>
+    
+</odoo>

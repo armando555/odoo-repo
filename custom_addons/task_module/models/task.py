@@ -1,4 +1,4 @@
-from oddo import models,fields
+from odoo import models,fields
 
 class Task(models.Model):
     _name = "task.task"

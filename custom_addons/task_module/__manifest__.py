@@ -24,7 +24,10 @@
     'images': ['static/description/banner.gif'],
     'installable': True,
     'auto_install': False,
-    'data':[],
+    'data':[
+        'views/menu.xml',
+        'views/task.xml',
+    ],
     # always loaded
     #'data': [
     #    'data/slide_channel_data.xml',
